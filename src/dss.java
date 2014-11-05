@@ -1,6 +1,6 @@
-
 public class dss {
-       private String dssid;
+	private String dssid;
+	private Long id;
 
 	public String getDssid() {
 		return dssid;
@@ -10,5 +10,12 @@ public class dss {
 		this.dssid = dssid;
 	}
 
-}
+	public Long getId() {
+		return id;
+	}
 
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+}
