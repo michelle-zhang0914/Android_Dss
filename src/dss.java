@@ -1,6 +1,7 @@
 public class dss {
 	private String dssid;
 	private Long id;
+	private String name;
 
 	public String getDssid() {
 		return dssid;
